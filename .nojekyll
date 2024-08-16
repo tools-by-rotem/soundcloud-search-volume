@@ -1,7 +1,0 @@
-# Creating an empty .nojekyll file in the current directory
-file_path = '/mnt/data/.nojekyll'
-
-with open(file_path, 'w') as file:
-    pass
-
-file_path
