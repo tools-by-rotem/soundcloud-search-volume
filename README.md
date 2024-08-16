@@ -21,7 +21,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/soundcloud-search-volume.git
+git clone https://github.com/rotem-tools/soundcloud-search-volume.git
 Navigate to the project directory:
 
 bash
