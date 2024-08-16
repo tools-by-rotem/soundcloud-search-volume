@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monthly ESV Calculator For SoundCloud</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Monthly Estimated Search Volume (ESV) Calculator For SoundCloud</h1>
+        <form id="esvForm">
+            <label for="plays1">Plays for Song 1:</label>
+            <input type="number" id="plays1" required>
+
+            <label for="plays2">Plays for Song 2:</label>
+            <input type="number" id="plays2" required>
+
+            <label for="plays3">Plays for Song 3:</label>
+            <input type="number" id="plays3" required>
+
+            <label for="followers">Number of Followers:</label>
+            <input type="number" id="followers" required>
+
+            <button type="submit">Calculate Monthly ESV</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
